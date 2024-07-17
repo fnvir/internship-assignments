@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span><span><i class="fa fa-phone"></i></span>Call: +01 1234567890</span>
+                <span><span><i class="fa fa-envelope"></i></span>Email: demo@gmail.com</span>
+                <span><span><i class="fa fa-map-marker"></i></span>Location</span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Mico Logo" width="60px">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Treatment</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="user-actions">
+                    <a href="#"><i class="fa fa-sign-in"></i> Login</a>
+                    <a href="#"><i class="fa fa-user"></i> Sign Up</a>
+                </div>
+                <form class="search">
+                    <input type="text" placeholder="Search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 style="color:black"> MICO <br> <span>HOSPITAL</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus tempus mattis. Nullam quis iaculis dui. Suspendisse euismod augue sit amet sollicitudin imperdiet.</p>
+                <button>Contact Us</button>
+            </div>
+            <div class="hero-image">
+                <img class="hospital" src="images/slider-img.jpg" style="width: 70%;" alt="Hospital">
+                <img class="dots" src="images/dots.png" style="width: 60%;" alt="dots">
+            </div>
+        </section>
+        <section class="appointment">
+            <div class="appointment-container">
+                <div class="appointment-title">
+                    <h2><span>BOOK</span> APPOINTMENT</h2>
+                </div>
+                <form class="appointment-form">
+                    <div class="form-group">
+                        <div class="slct">
+                            <input type="text" placeholder="Patient Name" required>
+                        </div>
+                        <div class="slct">
+                            <select id="doctor" name="doctor">
+                                <option disabled selected value>Doctor's Name</option>
+                                <option>John Doe</option>
+                                <option>John Cena</option>
+                            </select>
+                        </div>
+                        <div class="slct">
+                            <select id="dept" name="dept">
+                                <option disabled selected value>Department's Name</option>
+                                <option>XYZ</option>
+                                <option>ABC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="slct"><input type="text" placeholder="Phone Number" required></div>
+                        <div class="slct"><input type="text" placeholder="Symptoms"></div>
+                        <div class="slct"><input type="date" placeholder="Choose Date"></div>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Now</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer> </footer>
+    <script src="js.js"></script>
+</body>
+</html>

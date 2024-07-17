@@ -1,0 +1,209 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info span,
+.user-actions a {
+    margin: 0 10px; 
+}
+
+
+.navbar {
+    background-color: #00c2c2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+.navbar .logo {
+    background-color: white;
+    padding: 0 15px 0 15px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a, .user-actions a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #009999;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #009999;
+    color: white;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 9em;
+    margin:auto;
+}
+
+.hero h1 {
+    color: #00c2c2;
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #00a6a6;
+}
+
+.hero p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(25, 24, 24);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* overflow: hidden; */
+    margin: auto;
+}
+
+.hero-image .hospital {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hero-image .dots {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.contact-info .fa {
+    color: #00c2c2;
+}
+
+.appointment {
+    padding: 0 20% 0 20%;
+    background-color: #fff;
+}
+
+.appointment-title {
+    margin-bottom: 50px;
+}
+
+.appointment-container {
+    padding: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+}
+.appointment h2 {
+    color: #00c2c2;
+}
+
+.appointment h2 span {
+    color: #000000;
+    text-decoration: underline #00c2c2;
+    text-underline-offset: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.slct {
+    width: 200px;
+}
+
+.appointment-form input, .appointment-form select {
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+        padding: 10px;
+    border: 2px solid #00a6a6;
+    border-radius: 5px;
+}
+
+.appointment-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    margin: 100px;
+}
+
